@@ -5,6 +5,7 @@ public class PrimitiveTypes {
         /*
             Java primitive types are:
             int, double, float, char, byte, short, long, boolean
+
             Just like C.
          */
 
@@ -19,6 +20,9 @@ public class PrimitiveTypes {
         char varChar = 'A'; // As C, single quotation means charactere.
         char varCharASCII = 65; // Can also use ASCII values.
 
+        // Casting: Force a var type into another one.
+        int varIntCasting = (int) -9223372036854775808L;
+
         System.out.println("Integer is " + varInt + ".");
         System.out.println("Long is " + varLong + ".");
         System.out.println("Double is " + varDouble + ".");
@@ -29,5 +33,7 @@ public class PrimitiveTypes {
         System.out.println("Boolean is " + varFalse + ".");
         System.out.println("Char is " + varChar + ".");
         System.out.println("ASCII Char 65 is " + varCharASCII + ".");
+
+        System.out.println("Casting Long to Integer " + varIntCasting + ".");
     }
 }
