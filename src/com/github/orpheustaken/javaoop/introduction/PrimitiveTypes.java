@@ -9,9 +9,9 @@ public class PrimitiveTypes {
          */
 
         int varInt = -2147483648;
-        long varLong = -2147483648;
-        double varDouble = -2147483648;
-        float varFloat = -2147483648;
+        long varLong = -9223372036854775808L;
+        double varDouble = -2.147483648;
+        float varFloat = -2.147483648F;
         byte varByte = -128;
         short varShort = -32768;
         boolean varTrue = true;
