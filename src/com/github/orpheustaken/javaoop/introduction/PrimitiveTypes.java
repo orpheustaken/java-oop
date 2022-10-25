@@ -23,6 +23,10 @@ public class PrimitiveTypes {
         // Casting: Force a var type into another one.
         int varIntCasting = (int) -9223372036854775808L;
 
+        // String is not a Primitive Type, but a Reference Type.
+        // Also, it's a class.
+        String phrase = "The quick brown fox jumps over the lazy dog";
+
         System.out.println("Integer is " + varInt + ".");
         System.out.println("Long is " + varLong + ".");
         System.out.println("Double is " + varDouble + ".");
@@ -35,5 +39,7 @@ public class PrimitiveTypes {
         System.out.println("ASCII Char 65 is " + varCharASCII + ".");
 
         System.out.println("Casting Long to Integer " + varIntCasting + ".");
+
+        System.out.println("String: " + phrase + ".");
     }
 }
