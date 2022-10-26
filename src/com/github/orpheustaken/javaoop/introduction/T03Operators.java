@@ -1,6 +1,6 @@
 package com.github.orpheustaken.javaoop.introduction;
 
-public class Operators {
+public class T03Operators {
     public static void main(String[] args) {
         /*
             All same as C.

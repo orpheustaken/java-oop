@@ -1,6 +1,6 @@
 package com.github.orpheustaken.javaoop.introduction;
 
-public class PrimitiveTypes {
+public class T02PrimitiveTypes {
     public static void main(String[] args) {
         /*
             Java primitive types are:

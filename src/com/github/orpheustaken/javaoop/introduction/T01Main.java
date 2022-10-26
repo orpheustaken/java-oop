@@ -7,7 +7,7 @@ package com.github.orpheustaken.javaoop.introduction;
  */
 
 // Comments in Java work just like in C.
-public class Main {
+public class T01Main {
     /*
         Comments in Java work just like in C.
      */
