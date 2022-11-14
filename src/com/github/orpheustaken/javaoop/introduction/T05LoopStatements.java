@@ -22,5 +22,9 @@ public class T05LoopStatements {
         for (int j = 0; j < 10; j++) {
             System.out.println("For loop: " + j);
         }
+
+        // Also, there's the break and continue statements to be used inside loops.
+        // break; Interrupts the loop and EXIT.
+        // continue; Interrupts the loop and RUN ANOTHER ITERATION;
     }
 }
