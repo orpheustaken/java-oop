@@ -1,6 +1,6 @@
 package com.github.orpheustaken.javaoop.introduction;
 
-public class T04Conditions {
+public class T04ConditionalStatements {
     /*
         Also same as C.
 
