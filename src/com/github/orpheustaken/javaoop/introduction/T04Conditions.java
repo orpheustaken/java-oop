@@ -11,5 +11,21 @@ public class T04Conditions {
         Conditional Ternary Operator:
             var = (condition) ? true : false;
 
+
+        Works the same as in C, but can only be used with:
+        char, int, byte, short, enum, String
+
+        switch (name) {
+            case foo:
+                do stuff;
+                break;
+            case bar:
+                do other stuff;
+                break;
+            default:
+                do default stuff;
+                break;
+        }
+
      */
 }
