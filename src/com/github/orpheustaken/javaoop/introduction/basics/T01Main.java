@@ -1,4 +1,4 @@
-package com.github.orpheustaken.javaoop.introduction;
+package com.github.orpheustaken.javaoop.introduction.basics;
 
 /**
  * Javadoc: Language specific type of comment

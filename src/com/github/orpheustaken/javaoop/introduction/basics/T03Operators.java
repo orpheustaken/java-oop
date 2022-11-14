@@ -1,4 +1,4 @@
-package com.github.orpheustaken.javaoop.introduction;
+package com.github.orpheustaken.javaoop.introduction.basics;
 
 public class T03Operators {
     public static void main(String[] args) {
