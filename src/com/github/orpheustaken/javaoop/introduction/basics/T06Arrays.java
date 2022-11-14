@@ -9,7 +9,7 @@ public class T06Arrays {
     // Just like C.
 
     public static void main(String[] args) {
-        // IntelliJ complain if I declare Arrays like I do in C =/
+        // IntelliJ complains if I declare Arrays like I do in C =/
         int[] numbers = new int[3];
 
         numbers[0] = 1;
