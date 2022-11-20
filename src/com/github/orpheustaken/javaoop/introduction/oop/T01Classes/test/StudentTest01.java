@@ -5,6 +5,7 @@ import com.github.orpheustaken.javaoop.introduction.oop.T01Classes.domain.Studen
 public class StudentTest01 {
     public static void main(String[] args) {
         Student student = new Student();
+
         student.age = 21;
         student.name = "John";
         student.gender = 'M';
