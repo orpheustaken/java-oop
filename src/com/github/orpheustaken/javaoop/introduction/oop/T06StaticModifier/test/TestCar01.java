@@ -6,6 +6,7 @@ public class TestCar01 {
     public static void main(String[] args) {
         // STATIC values DON'T need an Object to be called, since they belong to the CLASS.
         System.out.println(Car.speedLimit);
+        System.out.println(Car.getSpeedLimit());
 
         Car car0 = new Car("BMW", 270);
         Car car1 = new Car("Mercedes", 280);
@@ -20,6 +21,7 @@ public class TestCar01 {
         // STATIC values are usually public?
         // This is the appropriate way of changing them, by calling the CLASS.
         Car.speedLimit = 120;
+        Car.setSpeedLimit(150);
 
         car0.print();
         car1.print();

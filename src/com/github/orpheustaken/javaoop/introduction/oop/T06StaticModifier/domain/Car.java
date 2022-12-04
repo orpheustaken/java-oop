@@ -41,4 +41,14 @@ public class Car {
     public void setMaxSpeed(double maxSpeed) {
         this.maxSpeed = maxSpeed;
     }
+
+    public static double getSpeedLimit() {
+        return speedLimit;
+    }
+
+    // Static Methods.
+    // Notice how it uses the Class name instead of the THIS.
+    public static void setSpeedLimit(double speedLimit) {
+        Car.speedLimit = speedLimit;
+    }
 }
