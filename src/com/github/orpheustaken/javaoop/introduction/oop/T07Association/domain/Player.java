@@ -3,12 +3,31 @@ package com.github.orpheustaken.javaoop.introduction.oop.T07Association.domain;
 public class Player {
     private String name;
 
-    public void print() {
-        System.out.println(this.name);
-    }
+    // Association between objects.
+    // Works similarly to tables relationship in a database.
+    // As in one to one, one to many and many to many.
+
+    // They can also me unidirectional and bidirectional.
+    // In this case it is unidirectional, because Player has a Team, but Team doesn't have a Player.
+    private Team team;
 
     public Player(String name) {
         this.name = name;
+    }
+
+    public void print() {
+        System.out.println(this.name);
+        if (this.team != null) {
+            System.out.println(this.team.getName());
+        }
+    }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
     }
 
     public String getName() {
