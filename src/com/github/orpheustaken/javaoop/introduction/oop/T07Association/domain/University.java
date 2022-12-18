@@ -30,7 +30,6 @@ public class University {
         for (Professor professor : professors) {
             System.out.println(professor.getName());
         }
-
     }
 
     public String getName() {
