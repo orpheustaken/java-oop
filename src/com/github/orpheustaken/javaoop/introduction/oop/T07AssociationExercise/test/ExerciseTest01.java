@@ -40,6 +40,11 @@ public class ExerciseTest01 {
         professor1.setPresentations(presentationsAbraham);
         professor2.setPresentations(presentationsElizabeth);
 
+        // Instead of having a print method inside of each class,
+        // you could have printed everything from Professor.
+
+        // IDIOT.
+
         // Results Presentations:
         Presentation[] presentations = {presentation1, presentation2, presentation3};
 
