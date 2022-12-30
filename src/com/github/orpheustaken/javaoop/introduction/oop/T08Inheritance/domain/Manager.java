@@ -12,7 +12,7 @@ public class Manager extends Employee {
     // Overriding: Same signature as in the Superclass in the Subclass.
     // Same access modifier, return type and name.
 
-    // @Override annotation is just for readability and compile warnings:
+    // @Override annotation is just for readability and compiler warnings:
     @Override
     public void print() {
         // super will call the method from the Superclass:
