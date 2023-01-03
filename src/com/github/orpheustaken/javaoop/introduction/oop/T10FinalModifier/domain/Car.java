@@ -1,5 +1,6 @@
 package com.github.orpheustaken.javaoop.introduction.oop.T10FinalModifier.domain;
 
+// public final class Car {
 public class Car {
     private String brandName;
 
@@ -25,6 +26,11 @@ public class Car {
 
     // You can never assign a new BUYER to the Car once it is created.
     public final Buyer BUYER = new Buyer();
+
+    // A final method cannot be overridden:
+    public final void print() {
+        System.out.println(this.brandName);
+    }
 
     public String getBrandName() {
         return brandName;
