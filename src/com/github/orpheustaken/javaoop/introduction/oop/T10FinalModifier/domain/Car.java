@@ -18,6 +18,14 @@ public class Car {
         SPEED_LIMIT = 250;
     }
 
+    // Any Car object will reference its own BUYER object.
+    // BUYER object will automatically be created when Car is created.
+    // Given that BUYER is final, a constant, the relationship will never change.
+    // The attributes inside BUYER can change, but never its reference (Memory Address) to Car.
+
+    // You can never assign a new BUYER to the Car once it is created.
+    public final Buyer BUYER = new Buyer();
+
     public String getBrandName() {
         return brandName;
     }
