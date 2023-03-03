@@ -3,6 +3,7 @@ package com.github.orpheustaken.javaoop.introduction.oop.T14Polymorphism.service
 //import com.github.orpheustaken.javaoop.introduction.oop.T14Polymorphism.domain.Computer;
 
 import com.github.orpheustaken.javaoop.introduction.oop.T14Polymorphism.domain.Product;
+import com.github.orpheustaken.javaoop.introduction.oop.T14Polymorphism.domain.Tomato;
 //import com.github.orpheustaken.javaoop.introduction.oop.T14Polymorphism.domain.Tomato;
 
 // Service classes are responsible to apply business rules.
@@ -35,5 +36,22 @@ public class ProductTaxReportService {
         System.out.println("Product " + product.getName());
         System.out.println("Price " + product.getPrice());
         System.out.println("Tax Value " + taxValue);
+
+        // Narrowing Cast.
+        // This makes Product aware of Tomato and its methods.
+        // And also points to the same object product.
+
+        // Always make sure the Narrowing Cast is happening in a safe mode.
+        // For that instanceof is used.
+
+        // Pattern Variable:
+        if (product instanceof Tomato tomato) {
+            System.out.println(tomato.getExpDate());
+        }
+        // Not Pattern Variable:
+//        if (product instanceof Tomato) {
+//            Tomato tomato = (Tomato) product;
+//            System.out.println(tomato.getExpDate());
+//        }
     }
 }
