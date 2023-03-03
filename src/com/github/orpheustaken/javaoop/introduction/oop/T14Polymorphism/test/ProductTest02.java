@@ -1,5 +1,6 @@
 package com.github.orpheustaken.javaoop.introduction.oop.T14Polymorphism.test;
 
+import com.github.orpheustaken.javaoop.introduction.oop.T14Polymorphism.domain.Cellphone;
 import com.github.orpheustaken.javaoop.introduction.oop.T14Polymorphism.domain.Computer;
 import com.github.orpheustaken.javaoop.introduction.oop.T14Polymorphism.domain.Product;
 import com.github.orpheustaken.javaoop.introduction.oop.T14Polymorphism.domain.Tomato;
@@ -28,5 +29,13 @@ public class ProductTest02 {
 
         // Tomato reference type knows about expDate, but not Product.
         System.out.println("Tomato: " + tomato.getName() + " " + tomato.getExpDate());
+
+        System.out.println(" ");
+
+        Cellphone cellphone = new Cellphone("Pixel", 1000);
+
+        System.out.println(cellphone.getName());
+        System.out.println(cellphone.getPrice());
+        System.out.println(cellphone.calculateTaxValue());
     }
 }
