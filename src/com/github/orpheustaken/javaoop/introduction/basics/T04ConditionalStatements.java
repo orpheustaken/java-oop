@@ -6,7 +6,7 @@ public class T04ConditionalStatements {
 
         if (boolean) (exit when true)
         else if (adds another conditions) (exit when true)
-        else (when if or else if is false)
+        else (when if and else if is false)
 
         Conditional Ternary Operator:
             var = (condition) ? true : false;
