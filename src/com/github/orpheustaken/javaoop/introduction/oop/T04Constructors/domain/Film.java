@@ -9,9 +9,9 @@ public class Film {
 
     /*
     Constructor, constructs an Object from a Class.
-    Doesn't have any parameters or return types.
+    Doesn't have any modifiers or return types.
     Gets executed before everything.
-    Used for defining rules, same as getters and setters.
+    Used for defining rules.
      */
 
     // Defines that the Class cannot be initialized as an Object without its attributes.
@@ -36,7 +36,7 @@ public class Film {
 
         // I really don't like Java... but I don't seem to like anything, so whatever, keep going.
 
-        // this() can only be used inside Constructors thats call Constructors.
+        // this() can only be used inside Constructors that call Constructors.
         this(name, genre, imdbScore, isWatched);
         System.out.println("Inside director's Constructor that calls Constructor 1");
 

@@ -1,7 +1,5 @@
 package com.github.orpheustaken.javaoop.introduction.oop.T11Enumeration.domain;
 
-import org.jetbrains.annotations.Nullable;
-
 public enum CustomerType {
     // Inside an Enumeration everything is a final (CONSTANT).
 //    INDIVIDUAL,

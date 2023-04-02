@@ -8,7 +8,7 @@ public class Series {
     // Gets called before Constructor.
     // Will always be executed at each Object Initialization.
 
-    // Usually used to initialized attributes.
+    // Usually used to initialize attributes.
     {
         System.out.print("\n");
         System.out.println("Inside Instance Initialization Block");
