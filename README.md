@@ -6,7 +6,7 @@ This repository follows the classes and didactics of the course [Java One For Al
 
 [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/index.html) are also used as a source of information and knowledge.
 
----
+### Why?
 
 The goal is to get a decent comprehension of the Java Language and the most essential Computer Science concepts.
 
